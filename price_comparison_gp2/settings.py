@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'products.apps.ProductsConfig',
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,8 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Apps Created by me
-    'blog',
     'products',
+    'blog',
+    
 ]
 
 MIDDLEWARE = [
